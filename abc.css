@@ -1,0 +1,12 @@
+body{
+    background-color: beige;
+}
+table{
+    width: 100%;
+}
+table,tr,th,td{
+    border-style: solid;
+}
+#hi{
+    background-color: rgb(249, 92, 35);
+}
