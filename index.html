@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="abc.css">
+    
+</head>
+
+<body>
+    <h2>SIMPLE CALCULATOR</h2>
+    <table>
+        <tr id="hi">
+            <th>No.</th>
+            <th>Function</th>
+            <th>Input</th>
+            <th>Calculate</th>
+            <th>Output</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>ADDITION</td>
+            <td rowspan="4">
+                <table>
+                    <tr>
+                        <td>Enter the 1st no:</td>
+                        <td><input type="number" id="one"></td>
+                    </tr>
+                    <tr>
+                        <td>Enter the 2nd no:</td>
+                        <td><input type="number" id="two"></td>
+                    </tr>
+                </table>
+            </td>
+            <td>
+                <input type="button" value="SUM" onclick="sum()">
+            </td>
+            <td rowspan="4">
+                <div id="res"></div>
+            </td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>SUBTRACTION</td>
+            <td>
+                <input type="button" value="DIFF" onclick="diff()">
+            </td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>MULTIPLICATION</td>
+            <td>
+                <input type="button" value="MUL" onclick="pro()">
+            </td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>DIVISION</td>
+            <td>
+                <input type="button" value="DIV" onclick="div()">
+            </td>
+        </tr>
+
+    </table>
+    <script src="scr.js"></script>
+</body>
+
+</html>
